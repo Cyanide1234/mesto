@@ -1,4 +1,4 @@
-.popup-edit__close-button {
+.popup__close-button {
     background: url("../../../images/close_button.png") no-repeat;
     background-size: cover;
     width: 32px;
@@ -10,12 +10,12 @@
     right: -40px;
 }
 
-.popup-edit__close-button:hover {
+.popup__close-button:hover {
     opacity: 0.6;
 }
 
 @media screen and (max-width: 960px) {
-    .popup-edit__close-button {
+    .popup__close-button {
         width: 20px;
         height: 20px;
         top: -36px;

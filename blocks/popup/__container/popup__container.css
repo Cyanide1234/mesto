@@ -1,4 +1,4 @@
-.popup-edit__container {
+.popup__container {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 960px) {
-    .popup-edit__container {
+    .popup__container {
         width: 282px;
         height: 322px;
     }
