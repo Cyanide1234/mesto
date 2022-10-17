@@ -10,7 +10,6 @@
     .footer__copyright {
         font-size: 14px;
         line-height: 17px;
-        margin-left: 19px;
-        margin-bottom: 36px;
+        margin: 0 19px 36px;
     }
 }

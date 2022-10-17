@@ -4,8 +4,8 @@ let closeButton = popup.querySelector('.popup__close-button');
 let submitForm = popup.querySelector('.popup__container');
 let name = document.querySelector('.profile__name');
 let description = document.querySelector('.profile__description');
-let nameInput = popup.querySelector('.popup__name');
-let descriptionInput = popup.querySelector('.popup__description');
+let nameInput = popup.querySelector('.popup__input_name');
+let descriptionInput = popup.querySelector('.popup__input_description');
 
 
 function popupOpen() {
@@ -18,8 +18,8 @@ function popupClose() {
     popup.classList.remove('popup_open');
 }
 
-function formSubmit(event) {
-    event.preventDefault();
+function formSubmit(evt) {
+    evt.preventDefault();
     name.textContent = nameInput.value;
     description.textContent = descriptionInput.value
     popupClose()
