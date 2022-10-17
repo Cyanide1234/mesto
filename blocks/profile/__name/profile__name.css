@@ -1,12 +1,13 @@
 .profile__name {
     color: #fff;
     margin: 0;
-    font-family: Inter;
     font-size: 42px;
     font-weight: 500;
     line-height: 48px;
-    letter-spacing: 0em;
-    text-align: left;
+    max-width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 @media screen and (max-width: 960px) {
@@ -14,5 +15,12 @@
         font-size: 27px;
         line-height: 33px;
         text-align: center;
+        max-width: 400px;
     }
+}
+
+@media screen and (max-width: 580px) {
+    .profile__name {
+    max-width: 250px;
+}
 }
