@@ -1,0 +1,16 @@
+.popup-edit__container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    width: 430px;
+    height: 330px;
+    position: relative;
+}
+
+@media screen and (max-width: 960px) {
+    .popup-edit__container {
+        width: 282px;
+        height: 322px;
+    }
+}
