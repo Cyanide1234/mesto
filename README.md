@@ -12,5 +12,3 @@
 * Nested БЭМ
 * JavaScript
 * Вера в макаронного монстра
-
-Посмотреть итоговую работу можно тут: https://cyanide1234.github.io/mesto/index.html
