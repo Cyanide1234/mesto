@@ -12,3 +12,5 @@
 * Nested БЭМ
 * JavaScript
 * Вера в макаронного монстра
+
+[Мою работу можно посмотреть тут](https://cyanide1234.github.io/mesto/ "Ну и намучился же я с поиском github pages")
